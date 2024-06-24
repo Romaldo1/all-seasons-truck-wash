@@ -1,0 +1,61 @@
+/* Centers the navbar content using flexbox */
+.navbar-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Centers the title container using flexbox */
+.title-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles the navbar brand text with a gradient and transparent text */
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
+    
+    background: linear-gradient(to right, #32a89f, #aaa9a9);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 5px 10px;
+}
+
+/* Sets the size for the logo image */
+.logo {
+    width: 90px;
+    height: 90px;
+}
+
+/* Removes the default focus, hover, and active states for the navbar brand */
+.navbar-brand:focus, .navbar-brand:hover, .navbar-brand:active {
+    color: transparent;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Styles the service header text */
+.service-header {
+    font-size: 2rem;
+    text-align: left;
+}
+
+/* Ensure the video is responsive */
+.video-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* Centers the text inside card bodies */
+.card-body {
+    text-align: center;
+}
+/* Changes the background color of the entire page */
+body {
+    background-color: #faf7f7; 
+}
